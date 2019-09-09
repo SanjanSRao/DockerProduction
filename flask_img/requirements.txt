@@ -1,0 +1,7 @@
+flasgger
+keras
+tensorflow
+theano
+flask
+setuptools
+mod_wsgi
