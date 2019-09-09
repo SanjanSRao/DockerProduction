@@ -1,0 +1,4 @@
+stemming
+flask
+sklearn
+mod_wsgi
