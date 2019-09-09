@@ -7,6 +7,8 @@ import pandas as pd
 with open('./rf.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
+model.n_jobs = 1
+    
 app = Flask(__name__)
 swagger = Swagger(app)
 
